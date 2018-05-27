@@ -26,7 +26,7 @@ function fetchBlog() {
                 const url = post.url;
                 const created = new Date(post.created).toDateString();
                 posts.push(
-                    `<article class="card mt-2 mb-2">
+                    `<article class="card mt-2 mb-4">
                         <a href="https://steemit.com${url}" target="_blank">
                             <img src="${image}" alt="" class="card__image"/>
                         </a>
