@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
-
 class Menu extends React.Component {
     render() {
         /**
@@ -16,7 +15,7 @@ class Menu extends React.Component {
          * @description current links to pages
          * @type {string[]}
          */
-        const menuItems = ['home', 'team', 'specs', 'roadmap', 'contact'];
+        const menuItems = ['home', 'team', 'specs', 'roadmap'];
 
         /**
          * @description add menu_open when toggleMenu prop is true
