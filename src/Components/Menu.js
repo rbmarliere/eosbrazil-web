@@ -1,94 +1,58 @@
 import * as React from 'react';
 
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem
+} from 'reactstrap';
+
+import Logo from '../Assets/logo.png';
 
 class Menu extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            isOpen: false
+        };
+    }
+    toggle() {
+        this.setState({
+            isOpen: !this.state.isOpen
+        });
+    }
     render() {
-        /**
-         * @description props from parent component
-         */
-        const { toggleMenu, closeMenu } = this.props;
-
-        /**
-         * @description current links to pages
-         * @type {string[]}
-         */
-        const menuItems = ['home', 'team', 'specs', 'roadmap'];
-
-        /**
-         * @description add menu_open when toggleMenu prop is true
-         * @returns {string}
-         */
-        const openOuterMenu = () => {
-            return 'menu_open';
-        };
-
-        /**
-         * @description add menu when toggleMenu prop is false
-         * @returns {string}
-         */
-        const closeOuterMenu = () => {
-            return 'menu';
-        };
-
-        /**
-         * @description add menu__inner_open when toggleMenu prop is true
-         * @returns {string}
-         */
-        const openInnerMenu = () => {
-            return 'menu__inner_open';
-        };
-
-        /**
-         * @description add menu__inner when toggleMenu prop is false
-         * @returns {string}
-         */
-        const closeInnerMenu = () => {
-            return 'menu__inner';
-        };
-
-        /**
-         * @description add {item}_open when toggleMenu prop is true
-         * @param item - menuItems
-         * @returns {string}
-         */
-        const openLinksMenu = (item) => {
-            return `menu__link ${item}_open`;
-        };
-
-        /**
-         * @description add {item} when toggleMenu prop is false
-         * @param item - menuItems
-         * @returns {string}
-         */
-        const closeLinksMenu = (item) => {
-            return `menu__link ${item}`;
-        };
-
-        const onCloseMenu = () => {
-            closeMenu();
-        };
-
         return (
-            <nav className={toggleMenu ? openOuterMenu() : closeOuterMenu()}>
-                <ul className={toggleMenu ? openInnerMenu() : closeInnerMenu()}>
-                    <TransitionGroup>
-                        {menuItems.map((item) =>
-                            <CSSTransition key={item} timeout={{enter: 500, exit: 700}}>
-                                <li className={toggleMenu ? openLinksMenu(item) : closeLinksMenu(item)}>
-                                    <NavLink
-                                        exact
-                                        to={item === 'home' ? '/' : `/${item}`}
-                                        onClick={onCloseMenu}>
-                                        {item}
-                                    </NavLink>
-                                </li>
-                            </CSSTransition>)}
-                    </TransitionGroup>
-                </ul>
-            </nav>
+            <div>
+                <Navbar light expand="md">
+                    <NavbarBrand href="/">
+                        <img src={Logo} alt="" className='img-fluid'/>
+                    </NavbarBrand>
+                    <NavbarToggler onClick={this.toggle} />
+                    <Collapse isOpen={this.state.isOpen} navbar>
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <Link to="/" className='nav-link' onClick={this.toggle}>Home</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/team" className='nav-link' onClick={this.toggle}>Team</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/specs" className='nav-link' onClick={this.toggle}>Specs</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/roadmap" className='nav-link' onClick={this.toggle}>Roadmap</Link>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </Navbar>
+            </div>
         );
     }
 }
