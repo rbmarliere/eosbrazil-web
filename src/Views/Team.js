@@ -26,15 +26,39 @@ const members = [
         'bio': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolore esse est incidunt sapiente? Alias aperiam eligendi explicabo maiores quasi.',
         'github_url': 'https://github.com/rbmarliere'
     }
+    ,
+    {
+        'id': 4,
+        'avatar_url': 'http://lorempixel.com/400/200/people',
+        'name': 'Member 3',
+        'email': 'example@email.com',
+        'bio': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolore esse est incidunt sapiente? Alias aperiam eligendi explicabo maiores quasi.',
+        'github_url': 'https://github.com/rbmarliere'
+    },
+    {
+        'id': 5,
+        'avatar_url': 'http://lorempixel.com/400/200/people',
+        'name': 'Member 3',
+        'email': 'example@email.com',
+        'bio': 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis dolore esse est incidunt sapiente? Alias aperiam eligendi explicabo maiores quasi.',
+        'github_url': 'https://github.com/rbmarliere'
+    }
 ];
 
 class Team extends Component {
 
     render() {
         return (
-            <section>
-                <TeamMembers members={members} />
-            </section>
+            <main className='container mt-10'>
+                <div className="row justify-content-center">
+                    <div className="col-xs-10">
+                        <h2>EOS Brazil Team</h2>
+                    </div>
+                </div>
+                <div className="row justify-content-center">
+                    <TeamMembers members={members} />
+                </div>
+            </main>
         );
     }
 }
