@@ -1,7 +1,5 @@
 import * as React from 'react';
-
 import { Link } from 'react-router-dom';
-
 import {
     Collapse,
     Navbar,
@@ -10,7 +8,6 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
-
 import Logo from '../Assets/logo.png';
 
 class Menu extends React.Component {
