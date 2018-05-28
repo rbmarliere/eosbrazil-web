@@ -3,12 +3,14 @@ import { Client } from 'dsteem';
 import Masthead from '../Components/Masthead';
 
 const client = new Client('https://api.steemit.com');
+const Fragment = React.Fragment;
 
 function fetchBlog() {
     const query = {
-        tag: 'eosbrazil',
-        limit: 10,
+        tag: 'steemitblog',
+        limit: 10
     };
+
     client.database
         .getDiscussions('blog', query)
         .then(result => {
@@ -27,20 +29,20 @@ function fetchBlog() {
                 const created = new Date(post.created).toDateString();
 
                 posts.push(
-                    `<article class="card mt-2 mb-4">
+                    `<article class="card mb-5">
                         <a href="https://steemit.com${url}" target="_blank">
-                            <img src="${image}" alt="" class="card__image"/>
+                            <img src="${image}" alt="" class="card-img-top"/>
                         </a>
-                        <div class="card__inner">
-                            <a href="https://steemit.com${url}" target="_blank">
-                                <h2 class="card__heading">${title}</h2>
-                            </a>
-                            <h3 class="card__sub__heading">by ${author} <span class="card__created">created at ${created}</span></h3>
                         
-                            <div class="card__tags mb-1 mt-1"><p>Tags: ${Tags}</p></div>
+                        <div class="card-body">
+                            
+                            <h2 class="card-title">${title}</h2>
+                            <p class="card-text">Tags: ${Tags}</p>
                             <div class="mt-2">
-                                <a href="https://steemit.com${url}" class="btn">READ MORE...</a>
+                                <a href="https://steemit.com${url}" class="btn btn-outline-custom">READ MORE...</a>
                             </div>
+                            <hr>
+                            <p class="card-text text-center text-muted">by ${author} created at ${created}</p>
                         </div>
                     </article>`
                 );
@@ -56,14 +58,28 @@ function fetchBlog() {
 
 class Home extends Component {
     componentDidMount() {
-        fetchBlog()
+        fetchBlog();
     }
+
     render() {
         return (
-            <main className='home__wrapper'>
-                <Masthead />
-                <section className='post__list' id="postList"></section>
-            </main>
+            <Fragment>
+                <div className="container-fluid mt-center">
+                    <div className="row  h-100">
+                        <div className="col-12 d-flex justify-content-center">
+                            <Masthead />
+                        </div>
+                    </div>
+                </div>
+
+                <main className='container'>
+                    <div className="row justify-content-center">
+                        <div className="col-xs-10 col-md-8" id="postList">
+
+                        </div>
+                    </div>
+                </main>
+            </Fragment>
         );
     }
 }
