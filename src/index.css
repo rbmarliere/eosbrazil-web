@@ -1,11 +1,87 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f4f4f4;
+    height: calc(100% - 98px);
+}
+
+#root {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+}
+
+button:focus {
+    outline-color: #044c84;
+}
+
+button.btn {
+    background-color: white;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.h-100 {
+    min-height: 95vh;
+}
+
+.mt-10 {
+    margin-top: 10em;
+}
+
+.mt-center {
+    margin-top: calc(100% - 60%);
+}
+
+@media (min-width: 1024px) {
+    .mt-center {
+        margin-top: calc(100% - 90%);
+    }
+}
+
+a {
+    color: #095590;
+}
+
+.btn-outline-custom {
+    color: #044c84;
+    border-color: #044c84;
+    border-radius: 0;
+}
+
+.btn-outline-custom:hover {
+    color: #fff;
+    background-color: #044c84;
+    border-color: #044c84;
+}
+
+.btn-outline-custom:focus {
+    color: #fff;
+    background-color: #044c84;
+    border-color: #044c84;
+    box-shadow: 0 0 0 0.2rem rgba(4, 76, 132, 0.53);
+}
+
+.card,
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-title {
+    font-size: 1.3125em;
+}
+
+.card-header {
+    background-color: #fff;
+}
+
+.form-control {
+    border-radius: 0;
 }
