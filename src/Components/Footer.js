@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer className='container-fluid'>
                 <div className="row d-flex justify-content-center pt-2 pb-2">
                     <div className="col-xs-12">
-                        <p className="text-center">EOS Brazil {(new Date().getFullYear())} &copy;</p>
+                        <p className="text-center">EOS Brazil {(new Date().getFullYear())} &copy; contact@eosbrazil.com</p>
                     </div>
                 </div>
 

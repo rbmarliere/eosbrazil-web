@@ -9,7 +9,7 @@ class Roadmap extends Component {
                 <div className="container-fluid mt-10">
                     <div className="row mt-3 mb-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
-                            <h2 className="text-center">EOS Brazil Road Map</h2>
+                            <h2 className="text-center">EOS Brazil Roadmap for 2018</h2>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Elected</h5>
-                                        <p className="card-text">EOS Brazil elected as main or stand-by block producers.</p>
+                                        <p className="card-text">EOS Brazil elected as main or standby block producer.</p>
                                     </div>
                                 </div>
 
@@ -32,7 +32,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Team Expansion</h5>
-                                        <p className="card-text">On boarding staff for assistance in hardening security and creating in-house dapps.</p>
+                                        <p className="card-text">Onboarding staff for assistance in hardening security and creating in-house dapps.</p>
                                     </div>
                                 </div>
 
@@ -42,7 +42,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Community Dapp Incubator</h5>
-                                        <p className="card-text">Launch incubator fund to promote EOS development in south America.</p>
+                                        <p className="card-text">Launch incubator fund to promote EOS development in South America.</p>
                                     </div>
                                 </div>
 
@@ -82,10 +82,36 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Server Expansion</h5>
-                                        <p className="card-text">Begin moving of AWS cloud infrastructure towards our own physical servers.</p>
+                                        <p className="card-text">Begin moving off AWS cloud infrastructure towards our own physical servers.</p>
                                     </div>
                                 </div>
                             </div>
+
+Commitments
+
+Blog updates
+---
+We would like to keep the community regularly updated on various developments in the EOS and
+block producer scene. This will be written in English and Portuguese.
+
+
+Community dapp contributions and our stance on voter kickbacks
+---
+Great discussions were set since the start of the governance channel about kickbacks.
+Following the majority of community sentiment, our stance is that rewarding voters directly
+does not provide value to the community. For every token we distribute to voters it is one
+less that could be used to contribute to more meaningful endeavours. So we will not be paying
+dividends to voters. Instead we will pledge to leverage community projects, with an emphasis
+on projects originating in South America, using our block producing rewards after covering
+the costs of our operation. This way the demand for EOS increases organically and the value
+of your tokens increase without creating a race among candidates to cut profit margins.
+
+
+Earnings transparency report
+---
+We will provide a quarterly report of our expenses which show exactly how our money
+is being used.
+
                         </div>
                     </div>
                 </div>
