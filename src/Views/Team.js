@@ -25,7 +25,7 @@ class Team extends Component {
                                         <FontAwesomeIcon icon={faGithubSquare} /> Ricardo Marlière
                                     </a>
                                 </h3>
-                                <p className="text-center"><small className="text-black-50">Co-Founder</small></p>
+                                <p className="text-md-center"><small className="text-black-50">Co-Founder</small></p>
                                 <p className='card-text mt-2 mb-2 text-black-70 text-md-center'>
                                     Also known in the community as “Zaratustra” or “CHONG, T.”, experienced in Linux administration and fundamental programming skills. He has been engaging with the Brazilian crypto community and administering EOS Telegram groups.
                                 </p>
@@ -53,7 +53,7 @@ class Team extends Component {
                                 <h3 className='card-title text-md-center'>
                                     Alex Kureya
                                 </h3>
-                                <p className="text-center"><small className="text-black-50">Co-Founder</small></p>
+                                <p className="text-md-center"><small className="text-black-50">Co-Founder</small></p>
                                 <p className='card-text mt-2 mb-2 text-black-70 text-md-center'>
                                     Also known in the community as “bakuDD”. Experienced in Linux administration and accounting. He has been engaging with the Japanese crypto community.
                                 </p>
