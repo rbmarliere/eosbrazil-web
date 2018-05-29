@@ -34,7 +34,7 @@ function fetchBlog() {
                 const created = new Date(post.created).toDateString();
 
                 posts.push(
-                    `<article class="card mb-5">
+                    `<article class="card mb-5 text-justify">
                         <a href="https://steemit.com${url}" target="_blank">
                             <img src="${image}" alt="" class="card-img-top"/>
                         </a>
@@ -84,7 +84,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="row justify-content-center mb-5">
-                        <div className="col-xs-10 col-md-8 text-center" id="postList">
+                        <div className="col-xs-10 col-md-8 text-justify" id="postList">
 
                         </div>
                     </div>
