@@ -31,9 +31,9 @@ class Menu extends React.Component {
                     <NavbarBrand href="/">
                         <img src={Logo} alt="" className='img-fluid'/>
                     </NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
+                    <NavbarToggler onClick={this.toggle} role="presentation"/>
                     <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
+                        <Nav className="ml-auto" navbar role="menu">
                             <NavItem>
                                 <Link to="/" className='nav-link' onClick={this.toggle}>Home</Link>
                             </NavItem>
