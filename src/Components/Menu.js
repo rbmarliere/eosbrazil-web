@@ -43,9 +43,9 @@ class Menu extends React.Component {
                             <NavItem>
                                 <Link to="/specs" className='nav-link' onClick={this.toggle}>Specs</Link>
                             </NavItem>
-                            <NavItem>
-                                <Link to="/roadmap" className='nav-link' onClick={this.toggle}>Roadmap</Link>
-                            </NavItem>
+                            {/*<NavItem>*/}
+                                {/*<Link to="/roadmap" className='nav-link' onClick={this.toggle}>Roadmap</Link>*/}
+                            {/*</NavItem>*/}
                         </Nav>
                     </Collapse>
                 </Navbar>
