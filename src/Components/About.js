@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <Fragment>
-                <div className="card mb-5">
+                <div className="card mb-5 text-center">
                     <div className="card-body">
                         <p className="card-text">We are a couple of EOS nerds who are dedicated to expanding the EOS ecosystem to this
                             underrepresented continent, bringing the blockchain to Brazil (and wider South America) in

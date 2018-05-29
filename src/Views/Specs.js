@@ -8,7 +8,7 @@ class Specs extends Component {
             <Fragment>
                 <div className="container">
                     <div className="row mt-10 justify-content-center mb-5">
-                        <div className="col-xs-10 col-md-8">
+                        <div className="col-xs-10 col-md-8 text-center">
                             <div className="card mb-2">
                                 <div className="card-body">
                                     <h5 className="card-title mt-2 mb-2">Main producer node and full nodes</h5>

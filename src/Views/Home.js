@@ -84,7 +84,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="row justify-content-center mb-5">
-                        <div className="col-xs-10 col-md-8" id="postList">
+                        <div className="col-xs-10 col-md-8 text-center" id="postList">
 
                         </div>
                     </div>
