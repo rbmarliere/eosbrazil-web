@@ -37,7 +37,7 @@ class App extends React.Component {
                             {/*<Route path="/roadmap" component={Roadmap}/>*/}
                         </Switch>
                         {/*footer*/}
-                        {/*<Footer></Footer>*/}
+                        <Footer></Footer>
                     </Fragment>
                 )} />
             </Router>
