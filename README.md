@@ -57,5 +57,6 @@ See [TODO](#todo) for what still needs to be done
 * Optimize SEO including index.html head tag meta information.
 * Improve ARIA 
 * Improve manifest.json for installation on home screen
-* Finish road map page when info is complete
-* Add more info to team members Page
+* Finish road map page when info is complete :heavy_check_mark:
+* Add more info to team members Page 
+* Routing issue
