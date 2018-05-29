@@ -9,6 +9,7 @@ body {
 footer {
     background-color: #044c84;
     min-height: 50px;
+    height: auto;
 }
 
 footer p {
