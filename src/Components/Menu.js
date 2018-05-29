@@ -8,7 +8,8 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
-import Logo from '../Assets/logo.webp';
+import Logo from '../Assets/logo-header.webp';
+import Logo50 from '../Assets/logo-header-50.webp';
 
 class Menu extends React.Component {
     constructor(props) {
@@ -29,7 +30,10 @@ class Menu extends React.Component {
             <div>
                 <Navbar light expand="md">
                     <NavbarBrand href="/">
-                        <img src={Logo} alt="" className='img-fluid'/>
+                        <picture>
+                            <source srcSet={Logo50} media="(min-width: 768px)" />
+                            <img src={Logo} alt="" className='img-fluid'/>
+                        </picture>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} role="presentation"/>
                     <Collapse isOpen={this.state.isOpen} navbar>
