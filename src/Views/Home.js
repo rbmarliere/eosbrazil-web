@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import { Client } from 'dsteem';
 import Masthead from '../Components/Masthead';
+import About from '../Components/About';
 
 const client = new Client('https://api.steemit.com');
 const Fragment = React.Fragment;
 
 function fetchBlog() {
+    /**
+     * @description tag (account name)  and amount of posts set to 10 now will pul the last 10 posts from steemit
+     * @type {{tag: string, limit: number}}
+     */
     const query = {
-        tag: 'steemitblog',
+        tag: 'eosbrazil',
         limit: 10
     };
 
@@ -73,6 +78,11 @@ class Home extends Component {
                 </div>
 
                 <main className='container'>
+                    <div className="row justify-content-center">
+                        <div className="col-xs-10 col-md-8">
+                            <About />
+                        </div>
+                    </div>
                     <div className="row justify-content-center">
                         <div className="col-xs-10 col-md-8" id="postList">
 
