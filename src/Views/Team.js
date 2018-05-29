@@ -16,7 +16,7 @@ class Team extends Component {
                 <div className="row justify-content-center">
                     <div className="col-xs-10 col-md-8">
                         <div className="card mt-2 mb-5 team__card" >
-                            <img src={ricardo} alt="profile picture from ricardo" className='team__avatar'/>
+                            <img src={ricardo} alt="ricardo" className='team__avatar'/>
                             <div className="card-body">
                                 <h3 className='card-title text-md-center'>
                                     Ricardo M <small className="text-black-50">Co-Founder</small>
@@ -69,7 +69,7 @@ class Team extends Component {
                 <div className="row justify-content-center mb-5">
                     <div className="col-xs-10 col-md-8">
                         <div className="card mt-2 mb-5 team__card" >
-                            <img src={alex} alt="profile picture from ricardo" className='team__avatar'/>
+                            <img src={alex} alt="Alex" className='team__avatar'/>
                             <div className="card-body">
                                 <h3 className='card-title text-md-center'>
                                     Alex K <small className="text-black-50">Co-Founder</small>
