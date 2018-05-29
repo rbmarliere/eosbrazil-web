@@ -9,20 +9,20 @@ class Roadmap extends Component {
                 <div className="container-fluid mt-10">
                     <div className="row mt-3 mb-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
-                            <h2 className="text-center">EOS Brazil Road Map</h2>
+                            <h2 className="text-center">EOS Brazil Roadmap for 2018</h2>
                         </div>
                     </div>
 
                     <div className="row mb-5">
                         <div className="col-xs-12 col-md-10 offset-md-1 justify-content-center">
-                            <div className="timeline">
+                            <div className="timeline text-justify">
                                 <div className="card card-timeline left">
                                     <div className="card-header">
                                         <h3 className="card-title">June</h3>
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Elected</h5>
-                                        <p className="card-text">EOS Brazil elected as main or stand-by block producers.</p>
+                                        <p className="card-text">EOS Brazil elected as main or standby block producer.</p>
                                     </div>
                                 </div>
 
@@ -32,7 +32,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Team Expansion</h5>
-                                        <p className="card-text">On boarding staff for assistance in hardening security and creating in-house dapps.</p>
+                                        <p className="card-text">Onboarding staff for assistance in hardening security and creating in-house dapps.</p>
                                     </div>
                                 </div>
 
@@ -42,7 +42,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Community Dapp Incubator</h5>
-                                        <p className="card-text">Launch incubator fund to promote EOS development in south America.</p>
+                                        <p className="card-text">Launch incubator fund to promote EOS development in South America.</p>
                                     </div>
                                 </div>
 
@@ -82,7 +82,7 @@ class Roadmap extends Component {
                                     </div>
                                     <div className="content">
                                         <h5 className="card-title">Server Expansion</h5>
-                                        <p className="card-text">Begin moving of AWS cloud infrastructure towards our own physical servers.</p>
+                                        <p className="card-text">Begin moving off AWS cloud infrastructure towards our own physical servers.</p>
                                     </div>
                                 </div>
                             </div>
