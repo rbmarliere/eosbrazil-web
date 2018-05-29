@@ -6,11 +6,9 @@
     "bootstrap": "^4.1.1",
     "dsteem": "^0.8.7",
     "react": "^16.4.0",
-    "react-anchor-link-smooth-scroll": "^1.0.9",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "react-transition-group": "^2.3.1",
     "reactstrap": "^6.0.1"
   },
   "scripts": {
