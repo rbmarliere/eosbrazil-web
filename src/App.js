@@ -34,10 +34,10 @@ class App extends React.Component {
                             <Route path="/" exact component={Home} />
                             <Route path="/team"  component={Team} />
                             <Route path="/specs"  component={Specs} />
-                            <Route path="/roadmap" component={Roadmap}/>
+                            {/*<Route path="/roadmap" component={Roadmap}/>*/}
                         </Switch>
                         {/*footer*/}
-                        <Footer></Footer>
+                        {/*<Footer></Footer>*/}
                     </Fragment>
                 )} />
             </Router>
