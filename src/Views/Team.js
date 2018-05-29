@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/fontawesome-free-brands'
 
-import ricardo from '../Assets/ricardo.webp';
-import alex from '../Assets/alex.webp';
+import ricardo from '../Assets/ricardo.png';
+import alex from '../Assets/alex.png';
 
 class Team extends Component {
 

@@ -8,8 +8,8 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
-import Logo from '../Assets/logo-header-25.webp';
-import Logo50 from '../Assets/logo-header-50.webp';
+import Logo from '../Assets/logo-header-25.png';
+import Logo50 from '../Assets/logo-header-50.png';
 
 class Menu extends React.Component {
     constructor(props) {

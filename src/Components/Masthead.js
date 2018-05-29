@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import Logo from '../Assets/logo-masthead-150.webp';
-import Logo_300 from '../Assets/logo-masthead-300.webp';
-import Logo_400 from '../Assets/logo-masthead-400.webp';
+import Logo from '../Assets/logo-masthead-150.png';
+import Logo_300 from '../Assets/logo-masthead-300.png';
+import Logo_400 from '../Assets/logo-masthead-400.png';
 
 class Masthead extends Component {
     render() {
