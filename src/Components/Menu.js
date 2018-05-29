@@ -8,7 +8,7 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
-import Logo from '../Assets/logo.png';
+import Logo from '../Assets/logo.webp';
 
 class Menu extends React.Component {
     constructor(props) {

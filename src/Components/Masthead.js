@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import Logo from '../Assets/EOS-Brazil_LogoMark_2_Color_250_text_shadow.png';
+import Logo from '../Assets/EOS-Brazil_LogoMark_2_Color_250_text_shadow.webp';
 
-import Logo_300 from '../Assets/EOS-Brazil_LogoMark_2_Color_300_text_shadow.png';
-import Logo_400 from '../Assets/EOS-Brazil_LogoMark_2_Color_400_text_shadow.png';
-import Logo_500 from '../Assets/EOS-Brazil_LogoMark_2_Color_500_text_shadow.png';
+import Logo_300 from '../Assets/EOS-Brazil_LogoMark_2_Color_300_text_shadow.webp';
+import Logo_400 from '../Assets/EOS-Brazil_LogoMark_2_Color_400_text_shadow.webp';
+import Logo_500 from '../Assets/EOS-Brazil_LogoMark_2_Color_500_text_shadow.webp';
 
 class Masthead extends Component {
     render() {

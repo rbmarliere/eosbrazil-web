@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import ricardo from '../Assets/ricardo.png';
-import alex from '../Assets/alex.png';
+import ricardo from '../Assets/ricardo.webp';
+import alex from '../Assets/alex.webp';
 
 class Team extends Component {
 
