@@ -3,7 +3,6 @@
 html,
 body {
     font-family: 'Lato', sans-serif;
-    background: #f4f4f4;
     height: calc(100% - 98px);
 }
 
@@ -42,7 +41,7 @@ button.btn {
 
 @media (min-width: 1024px) {
     .mt-center {
-        margin-top: calc(100% - 90%);
+        margin-top: calc(100% - 95%);
     }
 }
 
@@ -72,6 +71,7 @@ a {
 .card,
 .card-img-top {
     border-radius: 0;
+    border: none;
 }
 
 .card-title {
@@ -82,6 +82,16 @@ a {
     background-color: #fff;
 }
 
-.form-control {
-    border-radius: 0;
+.list-group-item {
+    border: none;
+}
+
+.team__avatar {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+}
+
+.text-black-70 {
+    color: #383838;
 }
