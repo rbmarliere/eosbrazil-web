@@ -103,7 +103,7 @@ class Team extends Component {
                                 <p className="card-text">
                                     Having extensive familiarity with Japan and Japanese culture, it was originally my intention
                                     to serve as a proxy representative for the Japanese community.<br /> This is why I created this
-                                    informational <a href="https://www.youtube.com/watch?v=NAnoy9gpdTA" target='_blank'>video in Japanese</a> (10,000+ views\n' +
+                                    informational <a href="https://www.youtube.com/watch?v=NAnoy9gpdTA" target='_blank' rel="noopener noreferrer">video in Japanese</a> (10,000+ views\n' +
                                     on nicovideo)
                                     However due to life getting in the way it became more and more difficult to achieve this
                                     task.<br /> I’m happy to say that JEDA (www.eosjapan.org) seems to have stepped into the Japanese
