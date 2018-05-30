@@ -35,19 +35,14 @@ function fetchBlog() {
 
                 posts.push(
                     `<article class="card mb-5 text-justify">
-                        <a href="https://steemit.com${url}" target="_blank">
-                            <img src="${image}" alt="" class="card-img-top"/>
-                        </a>
-                        
                         <div class="card-body">
-                            
                             <h2 class="card-title">${title}</h2>
                             <p class="card-text">Tags: ${Tags}</p>
                             <div class="mt-2">
-                                <a href="https://steemit.com${url}" class="btn btn-outline-custom">READ MORE...</a>
+                                <a href="https://steemit.com${url}" class="btn btn-outline-custom" target="_blank" rel="noopener noreferrer">READ MORE...</a>
                             </div>
                             <hr>
-                            <p class="card-text text-center text-muted">by ${author} created at ${created}</p>
+                            <p class="card-text text-muted">by ${author} created at ${created}</p>
                         </div>
                     </article>`
                 );
