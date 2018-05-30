@@ -35,8 +35,8 @@ class Menu extends React.Component {
     }
 
     onClick() {
-        this.toggle();
-        this.handleClick();
+        this.toggle;
+        this.handleClick;
     }
 
     render() {
