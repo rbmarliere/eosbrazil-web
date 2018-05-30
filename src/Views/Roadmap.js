@@ -6,7 +6,7 @@ class Roadmap extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container-fluid mt-10">
+                <div className="container mt-10">
                     <div className="row mt-3 mb-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
                             <h2 className="text-center">EOS Brazil Roadmap for 2018</h2>
