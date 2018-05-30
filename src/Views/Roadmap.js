@@ -89,9 +89,9 @@ class Roadmap extends Component {
                         </div>
                     </div>
 
-                    <div className="row mb-5 mt-5">
+                    <div className="row mb-2 mt-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
-                            <h2 className="text-center">Commitments</h2>
+                            <h2 className="text-center">Future Commitments</h2>
                         </div>
                     </div>
 
@@ -103,7 +103,7 @@ class Roadmap extends Component {
                                     <p className="card-text mt-4 mb-4">We would like to keep the community regularly updated on various developments in the EOS and block producer scene. This will be written in English and Portuguese.</p>
                                     <h5 className="card-subtitle mt-4 mb-4">Community dapp contributions and our stance on voter kickbacks</h5>
                                     <p className="card-text mt-4 mb-4">
-                                        Great discussions were set since the start of the governance channel about kickbacks. Following the majority of community sentiment, our stance is that rewarding voters directly does not provide value to the community. For every token we distribute to voters it is one less that could be used to contribute to more meaningful endeavours. So we will not be paying dividends to voters. Instead we will pledge to leverage community projects, with an emphasis on projects originating in South America, using our block producing rewards after covering the costs of our operation. This way the demand for EOS increases organically and the value of your tokens increase without creating a race among candidates to cut profit margins.
+                                        Great discussions were set since the start of the governance channel about kickbacks. Following the majority of community sentiment, our stance is that rewarding voters directly does not provide value to the community. For every token we distribute to voters it is one less that could be used to contribute to more meaningful endeavours. So we will not be paying dividends to voters. Instead we will pledge to leverage community projects, with an emphasis on projects originating in South America, using 50% of our block producing rewards after covering the costs of our operation. This way the demand for EOS increases organically and the value of your tokens increase without creating a race among candidates to cut profit margins.
                                     </p>
                                     <h5 className="card-subtitle mt-4 mb-4">Earnings transparency report</h5>
                                     <p className="card-text mt-4 mb-2">

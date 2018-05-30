@@ -56,12 +56,9 @@ class Specs extends Component {
                             <div className="card mb-2">
                                 <div className="card-body">
                                     <h5 className="card-title mb-4">Security</h5>
-                                    <p className="card-text">We have rudimentary DDoS protection in place using port knocking, haproxy (which doubles as a
-                                        load balancer), fail2ban, and Wireguard VPN. More thorough and expensive protection will be
-                                        contingent on our election and ability to scale, at which point we will investigate
-                                        providers. Auditing tools such as Amazon’s GuardDuty will also be implemented in the near
-                                        future. We would also like to hire a third-party firm to conduct a security audit on our
-                                        system.</p>
+                                    <p className="card-text">
+                                        We have rudimentary DDoS protection in place using port knocking, haproxy (which doubles as a load balancer), fail2ban, patroneos and Wireguard VPN. More thorough and expensive protection will be contingent on our election and ability to scale, at which point we will investigate providers. Auditing tools such as Amazon’s GuardDuty will also be implemented in the near future. We would also like to hire a third-party firm to conduct a security audit on our system.
+                                    </p>
                                 </div>
                             </div>
 
