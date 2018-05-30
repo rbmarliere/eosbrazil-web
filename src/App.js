@@ -9,19 +9,24 @@ import Home from './Views/Home';
 import Team from './Views/Team';
 import Specs from './Views/Specs';
 import Roadmap from './Views/Roadmap';
-
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-120056080-1');
 /**
  * @description Add fragment to remove extra div
  */
 const Fragment = React.Fragment;
 
 class App extends React.Component {
+    tracking() {
+        ReactGA.pageview(window.location.hash);
+    }
+
     render() {
         return (
             /**
              * @description wrap everything in the router
              */
-            <Router>
+            <Router onUpdate={this.tracking}>
                 {/*location to determine what route is being rendered in switch*/}
                 <Route render={({ location }) => (
                     <Fragment>
