@@ -97,27 +97,7 @@ button.btn {
         margin: 0;
     }
 }
-@media (min-width: 1024px) {
-    .eos {
-        letter-spacing: 5rem;
-        padding-left: 75px;
-        font-weight: 200;
-        margin-top: .5rem !important;
-    }
 
-    .brazil {
-        font-size: 5.6rem !important;
-        font-weight: 100;
-        letter-spacing: 1.3rem;
-        padding-left: 19px;
-    }
-
-    .logo-text {
-        font-size: 8rem;
-        color: #002e62;
-        margin: 0;
-    }
-}
 
 @media (min-width: 1024px) {
     .mt-center {
