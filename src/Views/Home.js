@@ -22,7 +22,6 @@ function fetchBlog() {
             const posts = [];
             result.forEach(post => {
                 const json = JSON.parse(post.json_metadata);
-                const image = json.image ? json.image[0] : '';
                 const title = post.title;
                 const author = post.author;
                 const tags = json.tags;
