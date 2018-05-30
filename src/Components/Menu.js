@@ -49,7 +49,7 @@ class Menu extends React.Component {
                             <img src={Logo} alt="" className='img-fluid'/>
                         </picture>
                     </NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} role="presentation"/>
+                    <NavbarToggler onClick={this.onClick} role="presentation"/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar role="menu">
                             <NavItem>
