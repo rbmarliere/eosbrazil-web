@@ -10,7 +10,6 @@ import {
 } from 'reactstrap';
 import Logo from '../Assets/logo-header-25.png';
 import Logo50 from '../Assets/logo-header-50.png';
-import ReactGA from 'react-ga';
 
 class Menu extends React.Component {
     constructor(props) {
@@ -21,22 +20,11 @@ class Menu extends React.Component {
             isOpen: false
         };
     }
+
     toggle() {
         this.setState({
             isOpen: !this.state.isOpen
         });
-    }
-
-    handleClick() {
-        ReactGA.event({
-            category: 'Navigation',
-            action: 'Clicked Link',
-        });
-    }
-
-    onClick() {
-        this.toggle;
-        this.handleClick;
     }
 
     render() {
@@ -49,20 +37,20 @@ class Menu extends React.Component {
                             <img src={Logo} alt="" className='img-fluid'/>
                         </picture>
                     </NavbarBrand>
-                    <NavbarToggler onClick={this.onClick} role="presentation"/>
+                    <NavbarToggler onClick={this.toggle} role="presentation"/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar role="menu">
                             <NavItem>
-                                <Link to="/" className='nav-link' onClick={this.onClick}>Home</Link>
+                                <Link to="/" className='nav-link' onClick={this.toggle}>Home</Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/team" className='nav-link' onClick={this.onClick}>Team</Link>
+                                <Link to="/team" className='nav-link' onClick={this.toggle}>Team</Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/specs" className='nav-link' onClick={this.onClick}>Specs</Link>
+                                <Link to="/specs" className='nav-link' onClick={this.toggle}>Specs</Link>
                             </NavItem>
                             <NavItem>
-                                <Link to="/roadmap" className='nav-link' onClick={this.onClick}>Roadmap</Link>
+                                <Link to="/roadmap" className='nav-link' onClick={this.toggle}>Roadmap</Link>
                             </NavItem>
                         </Nav>
                     </Collapse>
