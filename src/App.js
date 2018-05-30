@@ -10,7 +10,7 @@ import Team from './Views/Team';
 import Specs from './Views/Specs';
 import Roadmap from './Views/Roadmap';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-120056080-1');
+ReactGA.initialize('UA-120124585-1');
 /**
  * @description Add fragment to remove extra div
  */
