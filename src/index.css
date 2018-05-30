@@ -21,8 +21,10 @@ footer p {
 }
 
 .navbar {
-    background-color: #f8f8f8;
-    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    max-width: 1024px;
+    margin: auto;
 }
 
 .lightgray {
