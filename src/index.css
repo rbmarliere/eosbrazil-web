@@ -27,6 +27,14 @@ footer p {
     margin: auto;
 }
 
+.nav-link {
+    color: #044c84 !important;
+}
+
+.nav-link:hover {
+    color: #002e62 !important;
+}
+
 .lightgray {
     color: #f8f8f8;
 }
