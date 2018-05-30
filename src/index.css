@@ -25,6 +25,10 @@ footer p {
     border: 1px solid #e7e7e7;
 }
 
+.lightgray {
+    color: #f8f8f8;
+}
+
 button:focus {
     outline-color: #044c84;
 }
