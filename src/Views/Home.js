@@ -36,7 +36,6 @@ function fetchBlog() {
                     `<article class="card mb-5 text-justify">
                         <div class="card-body">
                             <h2 class="card-title">${title}</h2>
-                            <p class="card-text">Tags: ${Tags}</p>
                             <div class="mt-2">
                                 <a href="https://steemit.com${url}" class="btn btn-outline-custom" target="_blank" rel="noopener noreferrer">READ MORE...</a>
                             </div>
