@@ -15,7 +15,7 @@ class Roadmap extends Component {
 
                     <div className="row mb-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
-                            <div className="timeline text-justify">
+                            <div className="timeline">
                                 <div className="card card-timeline left">
                                     <div className="card-header">
                                         <h3 className="card-title">June</h3>
