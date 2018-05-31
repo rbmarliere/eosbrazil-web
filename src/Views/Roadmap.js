@@ -98,7 +98,7 @@ class Roadmap extends Component {
                     <div className="row mb-5">
                         <div className="col-xs-10 col-md-8 offset-md-2 justify-content-center">
                             <div className="card mb-2">
-                                <div className="card-body">
+                                <div className="card-body text-justify">
                                     <h5 className="card-title mt-4 mb-4">Blog updates</h5>
                                     <p className="card-text mt-4 mb-4">We would like to keep the community regularly updated on various developments in the EOS and block producer scene. This will be written in English and Portuguese.</p>
                                     <h5 className="card-subtitle mt-4 mb-4">Community dapp contributions and our stance on voter kickbacks</h5>
