@@ -14,6 +14,7 @@ import Specs from './Views/Specs';
 import Roadmap from './Views/Roadmap';
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-120124585-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 /**
  * @description Add fragment to remove extra div
  */
