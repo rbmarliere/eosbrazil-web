@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zaratustra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://eosbrazil.com
+  * I am zaratustra (https://keybase.io/zaratustra) on keybase.
+  * I have a public key ASCFX0_mGnhqBu-5ct81YybLd7CtKCONt4KMBr0EohTHfgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201d75c610808f7b4bd40b6bc13494ac6235fdb8b1653c517b942e5802cfe88a500a",
+      "host": "keybase.io",
+      "kid": "0120855f4fe61a786a06efb972df356326cb77b0ad28238db7828c06bd04a214c77e0a",
+      "uid": "1fcedc313b10242d1df3021d471f8219",
+      "username": "zaratustra"
+    },
+    "merkle_root": {
+      "ctime": 1527909964,
+      "hash": "a9efabbe49c521a8a2b70b8b2063469472f52a1913ed3993f961ca3d7ac5c6c5f94f229a1d84f18faf571372d58b4e92dcc19756bb763eeddf4f3ff5bb06f0a2",
+      "hash_meta": "9814333f1d2bae7be8403c44126f08eba2ff45838d9c935abe1ae1d48fe1275e",
+      "seqno": 2979953
+    },
+    "service": {
+      "entropy": "jfxUr3UfTvYPtX2IPrgyslfL",
+      "hostname": "eosbrazil.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.0.0"
+  },
+  "ctime": 1527909982,
+  "expire_in": 504576000,
+  "prev": "999103fd454721f0384476410140fbdd77d46b13bec943f1f4ecc29b00b37a5a",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghV9P5hp4agbvuXLfNWMmy3ewrSgjjbeCjAa9BKIUx34Kp3BheWxvYWTESpcCMsQgmZED/UVHIfA4RHZBAUD73XfUaxO+yUPx9OzCmwCzelrEIN19+MTYBkGOinM/+rzKuRUn9NSOLnpPBuJWHha1hEFVAgHCo3NpZ8RA0ONTcAOZvQ/XxGwnQ1341YQirWbJZ8TtcVcQ9pu9Px7mKm/4mE1e2aNWA9J8VfhzmF5gZpiQT8H5HYI7qKm/CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPVLLZ2uq5FaAuMBtUJdjVR2emdOEz9G7B1cM2IOF98Oo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zaratustra
+
+==================================================================
